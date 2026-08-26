@@ -1,0 +1,9 @@
+[submodule "source/gl4es"]
+	path = source/gl4es
+	url = https://github.com/ptitSeb/gl4es.git
+[submodule "source/SDL2"]
+	path = source/SDL2
+	url = https://github.com/libsdl-org/SDL.git
+[submodule "source/SDL2_image"]
+	path = source/SDL2_image
+	url = https://github.com/libsdl-org/SDL_image.git

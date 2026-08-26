@@ -1,0 +1,52 @@
+# Build outputs
+android/app/build/
+android/.gradle/
+android/local.properties
+*.apk
+*.aab
+
+# Prebuilt libraries (build with build_deps.sh)
+android/app/src/main/jni/prebuilt/*.so
+android/app/src/main/jni/prebuilt/*.a
+!android/app/src/main/jni/prebuilt/arm64-v8a/.gitkeep
+
+# Assets (copy from packages/ manually)
+android/app/src/main/assets/packages/
+android/app/src/main/assets/config/
+
+# NDK build
+android/app/.cxx/
+android/app/.externalNativeBuild/
+
+# IDE
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Binaries
+bin_unix/
+bin_win32/
+*.exe
+*.o
+*.d
+*.gch
+
+# Build artifacts
+source/src/ac_client
+source/src/ac_server
+source/src/ac_master
+source/enet/.libs/
+source/enet/Makefile
+source/enet/autom4te.cache/
+source/enet/config.log
+source/enet/config.status
+source/enet/libtool
+source/enet/stamp-h1
+source/enet/aclocal.m4
+source/enet/configure
+
+# Android deps build
+source/android-deps/

@@ -1,0 +1,19 @@
+# Android build outputs
+build/
+.gradle/
+local.properties
+*.apk
+*.aab
+*.iml
+.idea/
+
+# Prebuilt libraries (build with build_deps.sh)
+app/src/main/jni/prebuilt/*.so
+app/src/main/jni/prebuilt/*.a
+
+# Assets (copy from packages/ manually)
+app/src/main/assets/packages/
+
+# NDK
+.externalNativeBuild/
+.cxx/
