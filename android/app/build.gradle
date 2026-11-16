@@ -6,7 +6,6 @@ android {
     namespace 'com.assaultcube.android'
     compileSdk 34
     ndkVersion '25.1.8937393'
-    ndkPath "C:\\Users\\SarahRose\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393"
 
     defaultConfig {
         applicationId "com.assaultcube.android"
